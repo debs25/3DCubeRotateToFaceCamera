@@ -1,4 +1,4 @@
-# iOS
+# SCNNode rotation to face camera 
 
 OS app with SceneKit. Moving Object on a 3D Cube will face camera.
 
