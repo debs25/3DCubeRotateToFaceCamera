@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87CFCA061F23D03600885B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFCA051F23D03600885B5E /* AppDelegate.swift */; };
+		87CFCA081F23D03600885B5E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CFCA071F23D03600885B5E /* art.scnassets */; };
+		87CFCA0A1F23D03600885B5E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFCA091F23D03600885B5E /* GameViewController.swift */; };
+		87CFCA0D1F23D03600885B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CFCA0B1F23D03600885B5E /* Main.storyboard */; };
+		87CFCA0F1F23D03600885B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CFCA0E1F23D03600885B5E /* Assets.xcassets */; };
+		87CFCA121F23D03600885B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CFCA101F23D03600885B5E /* LaunchScreen.storyboard */; };
+		87CFCA1D1F23D03600885B5E /* _DCubeRotateToFaceCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFCA1C1F23D03600885B5E /* _DCubeRotateToFaceCameraTests.swift */; };
+		87CFCA281F23D03600885B5E /* _DCubeRotateToFaceCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFCA271F23D03600885B5E /* _DCubeRotateToFaceCameraUITests.swift */; };
+		87CFCA361F23D0B600885B5E /* SCNVector3Extn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFCA351F23D0B600885B5E /* SCNVector3Extn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87CFCA191F23D03600885B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CFC9FA1F23D03600885B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CFCA011F23D03600885B5E;
+			remoteInfo = 3DCubeRotateToFaceCamera;
+		};
+		87CFCA241F23D03600885B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CFC9FA1F23D03600885B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CFCA011F23D03600885B5E;
+			remoteInfo = 3DCubeRotateToFaceCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87CFCA021F23D03600885B5E /* 3DCubeRotateToFaceCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DCubeRotateToFaceCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CFCA051F23D03600885B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87CFCA071F23D03600885B5E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		87CFCA091F23D03600885B5E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		87CFCA0C1F23D03600885B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87CFCA0E1F23D03600885B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87CFCA111F23D03600885B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87CFCA131F23D03600885B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CFCA181F23D03600885B5E /* 3DCubeRotateToFaceCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DCubeRotateToFaceCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CFCA1C1F23D03600885B5E /* _DCubeRotateToFaceCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCubeRotateToFaceCameraTests.swift; sourceTree = "<group>"; };
+		87CFCA1E1F23D03600885B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CFCA231F23D03600885B5E /* 3DCubeRotateToFaceCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DCubeRotateToFaceCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CFCA271F23D03600885B5E /* _DCubeRotateToFaceCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCubeRotateToFaceCameraUITests.swift; sourceTree = "<group>"; };
+		87CFCA291F23D03600885B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CFCA351F23D0B600885B5E /* SCNVector3Extn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extn.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CFC9FF1F23D03600885B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CFCA151F23D03600885B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CFCA201F23D03600885B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87CFC9F91F23D03600885B5E = {
+			isa = PBXGroup;
+			children = (
+				87CFCA041F23D03600885B5E /* 3DCubeRotateToFaceCamera */,
+				87CFCA1B1F23D03600885B5E /* 3DCubeRotateToFaceCameraTests */,
+				87CFCA261F23D03600885B5E /* 3DCubeRotateToFaceCameraUITests */,
+				87CFCA031F23D03600885B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87CFCA031F23D03600885B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CFCA021F23D03600885B5E /* 3DCubeRotateToFaceCamera.app */,
+				87CFCA181F23D03600885B5E /* 3DCubeRotateToFaceCameraTests.xctest */,
+				87CFCA231F23D03600885B5E /* 3DCubeRotateToFaceCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CFCA041F23D03600885B5E /* 3DCubeRotateToFaceCamera */ = {
+			isa = PBXGroup;
+			children = (
+				87CFCA051F23D03600885B5E /* AppDelegate.swift */,
+				87CFCA071F23D03600885B5E /* art.scnassets */,
+				87CFCA091F23D03600885B5E /* GameViewController.swift */,
+				87CFCA0B1F23D03600885B5E /* Main.storyboard */,
+				87CFCA0E1F23D03600885B5E /* Assets.xcassets */,
+				87CFCA101F23D03600885B5E /* LaunchScreen.storyboard */,
+				87CFCA131F23D03600885B5E /* Info.plist */,
+				87CFCA351F23D0B600885B5E /* SCNVector3Extn.swift */,
+			);
+			path = 3DCubeRotateToFaceCamera;
+			sourceTree = "<group>";
+		};
+		87CFCA1B1F23D03600885B5E /* 3DCubeRotateToFaceCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				87CFCA1C1F23D03600885B5E /* _DCubeRotateToFaceCameraTests.swift */,
+				87CFCA1E1F23D03600885B5E /* Info.plist */,
+			);
+			path = 3DCubeRotateToFaceCameraTests;
+			sourceTree = "<group>";
+		};
+		87CFCA261F23D03600885B5E /* 3DCubeRotateToFaceCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87CFCA271F23D03600885B5E /* _DCubeRotateToFaceCameraUITests.swift */,
+				87CFCA291F23D03600885B5E /* Info.plist */,
+			);
+			path = 3DCubeRotateToFaceCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CFCA011F23D03600885B5E /* 3DCubeRotateToFaceCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CFCA2C1F23D03600885B5E /* Build configuration list for PBXNativeTarget "3DCubeRotateToFaceCamera" */;
+			buildPhases = (
+				87CFC9FE1F23D03600885B5E /* Sources */,
+				87CFC9FF1F23D03600885B5E /* Frameworks */,
+				87CFCA001F23D03600885B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DCubeRotateToFaceCamera;
+			productName = 3DCubeRotateToFaceCamera;
+			productReference = 87CFCA021F23D03600885B5E /* 3DCubeRotateToFaceCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87CFCA171F23D03600885B5E /* 3DCubeRotateToFaceCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CFCA2F1F23D03600885B5E /* Build configuration list for PBXNativeTarget "3DCubeRotateToFaceCameraTests" */;
+			buildPhases = (
+				87CFCA141F23D03600885B5E /* Sources */,
+				87CFCA151F23D03600885B5E /* Frameworks */,
+				87CFCA161F23D03600885B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CFCA1A1F23D03600885B5E /* PBXTargetDependency */,
+			);
+			name = 3DCubeRotateToFaceCameraTests;
+			productName = 3DCubeRotateToFaceCameraTests;
+			productReference = 87CFCA181F23D03600885B5E /* 3DCubeRotateToFaceCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87CFCA221F23D03600885B5E /* 3DCubeRotateToFaceCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CFCA321F23D03600885B5E /* Build configuration list for PBXNativeTarget "3DCubeRotateToFaceCameraUITests" */;
+			buildPhases = (
+				87CFCA1F1F23D03600885B5E /* Sources */,
+				87CFCA201F23D03600885B5E /* Frameworks */,
+				87CFCA211F23D03600885B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CFCA251F23D03600885B5E /* PBXTargetDependency */,
+			);
+			name = 3DCubeRotateToFaceCameraUITests;
+			productName = 3DCubeRotateToFaceCameraUITests;
+			productReference = 87CFCA231F23D03600885B5E /* 3DCubeRotateToFaceCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CFC9FA1F23D03600885B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DSS;
+				TargetAttributes = {
+					87CFCA011F23D03600885B5E = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					87CFCA171F23D03600885B5E = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 87CFCA011F23D03600885B5E;
+					};
+					87CFCA221F23D03600885B5E = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 87CFCA011F23D03600885B5E;
+					};
+				};
+			};
+			buildConfigurationList = 87CFC9FD1F23D03600885B5E /* Build configuration list for PBXProject "3DCubeRotateToFaceCamera" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87CFC9F91F23D03600885B5E;
+			productRefGroup = 87CFCA031F23D03600885B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CFCA011F23D03600885B5E /* 3DCubeRotateToFaceCamera */,
+				87CFCA171F23D03600885B5E /* 3DCubeRotateToFaceCameraTests */,
+				87CFCA221F23D03600885B5E /* 3DCubeRotateToFaceCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87CFCA001F23D03600885B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CFCA081F23D03600885B5E /* art.scnassets in Resources */,
+				87CFCA121F23D03600885B5E /* LaunchScreen.storyboard in Resources */,
+				87CFCA0F1F23D03600885B5E /* Assets.xcassets in Resources */,
+				87CFCA0D1F23D03600885B5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CFCA161F23D03600885B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CFCA211F23D03600885B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CFC9FE1F23D03600885B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CFCA0A1F23D03600885B5E /* GameViewController.swift in Sources */,
+				87CFCA061F23D03600885B5E /* AppDelegate.swift in Sources */,
+				87CFCA361F23D0B600885B5E /* SCNVector3Extn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CFCA141F23D03600885B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CFCA1D1F23D03600885B5E /* _DCubeRotateToFaceCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CFCA1F1F23D03600885B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CFCA281F23D03600885B5E /* _DCubeRotateToFaceCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87CFCA1A1F23D03600885B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CFCA011F23D03600885B5E /* 3DCubeRotateToFaceCamera */;
+			targetProxy = 87CFCA191F23D03600885B5E /* PBXContainerItemProxy */;
+		};
+		87CFCA251F23D03600885B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CFCA011F23D03600885B5E /* 3DCubeRotateToFaceCamera */;
+			targetProxy = 87CFCA241F23D03600885B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87CFCA0B1F23D03600885B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CFCA0C1F23D03600885B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87CFCA101F23D03600885B5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CFCA111F23D03600885B5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87CFCA2A1F23D03600885B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87CFCA2B1F23D03600885B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CFCA2D1F23D03600885B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DCubeRotateToFaceCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbydeb.-DCubeRotateToFaceCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87CFCA2E1F23D03600885B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DCubeRotateToFaceCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbydeb.-DCubeRotateToFaceCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87CFCA301F23D03600885B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3DCubeRotateToFaceCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbydeb.-DCubeRotateToFaceCameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DCubeRotateToFaceCamera.app/3DCubeRotateToFaceCamera";
+			};
+			name = Debug;
+		};
+		87CFCA311F23D03600885B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3DCubeRotateToFaceCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbydeb.-DCubeRotateToFaceCameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DCubeRotateToFaceCamera.app/3DCubeRotateToFaceCamera";
+			};
+			name = Release;
+		};
+		87CFCA331F23D03600885B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = 3DCubeRotateToFaceCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbydeb.-DCubeRotateToFaceCameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DCubeRotateToFaceCamera;
+			};
+			name = Debug;
+		};
+		87CFCA341F23D03600885B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = 3DCubeRotateToFaceCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsbydeb.-DCubeRotateToFaceCameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DCubeRotateToFaceCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CFC9FD1F23D03600885B5E /* Build configuration list for PBXProject "3DCubeRotateToFaceCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CFCA2A1F23D03600885B5E /* Debug */,
+				87CFCA2B1F23D03600885B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CFCA2C1F23D03600885B5E /* Build configuration list for PBXNativeTarget "3DCubeRotateToFaceCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CFCA2D1F23D03600885B5E /* Debug */,
+				87CFCA2E1F23D03600885B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87CFCA2F1F23D03600885B5E /* Build configuration list for PBXNativeTarget "3DCubeRotateToFaceCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CFCA301F23D03600885B5E /* Debug */,
+				87CFCA311F23D03600885B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87CFCA321F23D03600885B5E /* Build configuration list for PBXNativeTarget "3DCubeRotateToFaceCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CFCA331F23D03600885B5E /* Debug */,
+				87CFCA341F23D03600885B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CFC9FA1F23D03600885B5E /* Project object */;
+}
